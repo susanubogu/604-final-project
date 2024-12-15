@@ -8,7 +8,7 @@ The goal of this final project is to explore how different factors affect a stud
 
 ## Project Summary
 
-This project involves the creation of an interactive dashboard designed for educators, parents, and individuals working closely with children. The dashboard's goal is to compile data insights and display them in an eye-catching, intuitive manner that makes comprehension and decision-making easier. It is a useful tool for tracking patterns, assessing results, and determining workable tactics related to the education, growth, or general well-being of children.
+This project involves the creation of an interactive dashboard designed for educators, parents, and individuals working closely with children. The dashboard's goal is to compile data insights and display them in an eye-catching, intuitive manner that makes comprehension and decision-making easier. It is a useful tool for tracking patterns, assessing results, and determining workablse tactics related to the education, growth, or general well-being of children.
 
 The dashboard's main goal is to close the gap between useful applications and complicated data. It will use dynamic visualisations, filters, and summaries to deliver concise, useful insights. Without needing to be highly skilled in data analysis, users will be able to examine important indicators, spot trends, and come to well-informed conclusions. Furthermore, depending on the data displayed, the dashboard can have customised alerts or recommendations to point users in the direction of best practices.
 
