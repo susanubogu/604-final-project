@@ -177,7 +177,7 @@ Based on the analysis above and the visualizations I am choosing to focus on the
 
 -   ***Parental Education:*** We can see that students with parents who have completed a Master's degree had the highest scores in all exams. The general trend with this is that the more education a student's parent has gone through, the higher they tend to score on exams.
 
-### Interactive Dashboard
+## Interactive Dashboard
 
 If you would like to play around with the data and see how different variables interact with the average of the scores you can use this dashboard.
 
