@@ -228,3 +228,15 @@ Here are the key findings of the study:
 Future analysis could explore interactions between these variables, such as how the effect of test preparation varies across different racial or socioeconomic groups, or the impact of combining multiple interventions like better nutritional programs and targeted test preparation. Longitudinal studies could also assess the sustainability of these improvements over time.
 
 Overall, this dashboard offers actionable insights to guide decision-making and foster a deeper understanding of educational disparities. It highlights key factors contributing to student success, providing educators and policymakers with data-driven strategies to enhance academic outcomes across diverse student populations.
+
+## Refrences
+
+-   R Core Team. (2024). *R: A language and environment for statistical computing*. R Foundation for Statistical Computing, Vienna, Austria. [https://www.R-project.org](https://www.r-project.org/)
+
+-   Wickham, H. (2016). *ggplot2: Elegant graphics for data analysis*. Springer-Verlag New York. https://ggplot2.tidyverse.org
+
+-   Wickham, H., François, R., Henry, L., & Müller, K. (2023). *dplyr: A grammar of data manipulation*. https://dplyr.tidyverse.org
+
+-   Wickham, H. (2023). *tidyr: Tidy messy data*. https://tidyr.tidyverse.org
+
+-   Wei, T., & Simko, V. (2021). *corrplot: Visualization of a correlation matrix*. <https://github.com/taiyun/corrplot>
