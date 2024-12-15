@@ -195,6 +195,8 @@ The summary of the model for math scores showed that:
 
 -   Lunch type and test preparation course were significant predictors, with standard lunch and completing the test prep associated with higher scores.
 
+While the models provide valuable insights, they do not account for unobserved factors such as individual motivation or classroom environment, which could influence student performance.
+
 ```{r}
 lm_math <- lm(math.score ~ gender + race.ethnicity + parental.level.of.education + 
                 lunch + test.preparation.course, data = data)
@@ -209,5 +211,20 @@ lm_writing <- lm(writing.score ~ gender + race.ethnicity + parental.level.of.edu
 summary(lm_writing)
 ```
 
-While the models provide valuable insights, they do not account for unobserved factors such as individual motivation or classroom environment, which could influence student performance.
+## Conclusion
 
+Here are the key findings of the study:
+
+-   **Gender**: Male students scored significantly higher in math (+4.99) but scored lower in reading (-7.07) and writing (-9.10). Gender differences in writing were particularly pronounced.
+
+-   **Race/Ethnicity**: Students in Group E consistently outperformed other groups across all three subjects, with significant positive effects in math (+10.13), reading (+5.51), and writing (+5.14).
+
+-   **Parental Education**: Students with parents holding only high school diplomas or less consistently scored lower across all subjects. For example, "high school" was associated with a -4.90 effect on reading scores and -5.81 on writing scores. Master's degrees showed positive impacts, particularly on writing scores (+5.18).
+
+-   **Lunch Type**: Students with standard lunches performed significantly better in all subjects: math (+10.88), reading (+7.25), and writing (+8.20), underscoring the role of nutrition in academic success.
+
+-   **Test Preparation Course**: Completing the test preparation course was strongly associated with improved scores. Students who did not complete the course scored lower by -5.49 in math, -7.36 in reading, and -10.06 in writing. Writing scores showed the largest impact of test preparation.
+
+Future analysis could explore interactions between these variables, such as how the effect of test preparation varies across different racial or socioeconomic groups, or the impact of combining multiple interventions like better nutritional programs and targeted test preparation. Longitudinal studies could also assess the sustainability of these improvements over time.
+
+Overall, this dashboard offers actionable insights to guide decision-making and foster a deeper understanding of educational disparities. It highlights key factors contributing to student success, providing educators and policymakers with data-driven strategies to enhance academic outcomes across diverse student populations.

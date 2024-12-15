@@ -154,6 +154,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   <li><a href="#interactive-dashboard" id="toc-interactive-dashboard" class="nav-link" data-scroll-target="#interactive-dashboard">Interactive Dashboard</a></li>
   </ul></li>
   <li><a href="#models" id="toc-models" class="nav-link" data-scroll-target="#models">Models</a></li>
+  <li><a href="#conclusion" id="toc-conclusion" class="nav-link" data-scroll-target="#conclusion">Conclusion</a></li>
   </ul>
 </nav>
     </div>
@@ -479,6 +480,7 @@ $unique
 <li><p>Parental level of education had a positive and significant impact, with higher education levels correlating with better performance.</p></li>
 <li><p>Lunch type and test preparation course were significant predictors, with standard lunch and completing the test prep associated with higher scores.</p></li>
 </ul>
+<p>While the models provide valuable insights, they do not account for unobserved factors such as individual motivation or classroom environment, which could influence student performance.</p>
 <div class="cell">
 <div class="sourceCode cell-code" id="cb32"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb32-1"><a href="#cb32-1" aria-hidden="true" tabindex="-1"></a>lm_math <span class="ot">&lt;-</span> <span class="fu">lm</span>(math.score <span class="sc">~</span> gender <span class="sc">+</span> race.ethnicity <span class="sc">+</span> parental.level.of.education <span class="sc">+</span> </span>
 <span id="cb32-2"><a href="#cb32-2" aria-hidden="true" tabindex="-1"></a>                lunch <span class="sc">+</span> test.preparation.course, <span class="at">data =</span> data)</span>
@@ -628,7 +630,19 @@ Multiple R-squared:  0.334, Adjusted R-squared:  0.3259
 F-statistic: 41.25 on 12 and 987 DF,  p-value: &lt; 2.2e-16</code></pre>
 </div>
 </div>
-<p>While the models provide valuable insights, they do not account for unobserved factors such as individual motivation or classroom environment, which could influence student performance.</p>
+</section>
+<section id="conclusion" class="level2">
+<h2 class="anchored" data-anchor-id="conclusion">Conclusion</h2>
+<p>Here are the key findings of the study:</p>
+<ul>
+<li><p><strong>Gender</strong>: Male students scored significantly higher in math (+4.99) but scored lower in reading (-7.07) and writing (-9.10). Gender differences in writing were particularly pronounced.</p></li>
+<li><p><strong>Race/Ethnicity</strong>: Students in Group E consistently outperformed other groups across all three subjects, with significant positive effects in math (+10.13), reading (+5.51), and writing (+5.14).</p></li>
+<li><p><strong>Parental Education</strong>: Students with parents holding only high school diplomas or less consistently scored lower across all subjects. For example, “high school” was associated with a -4.90 effect on reading scores and -5.81 on writing scores. Master’s degrees showed positive impacts, particularly on writing scores (+5.18).</p></li>
+<li><p><strong>Lunch Type</strong>: Students with standard lunches performed significantly better in all subjects: math (+10.88), reading (+7.25), and writing (+8.20), underscoring the role of nutrition in academic success.</p></li>
+<li><p><strong>Test Preparation Course</strong>: Completing the test preparation course was strongly associated with improved scores. Students who did not complete the course scored lower by -5.49 in math, -7.36 in reading, and -10.06 in writing. Writing scores showed the largest impact of test preparation.</p></li>
+</ul>
+<p>Future analysis could explore interactions between these variables, such as how the effect of test preparation varies across different racial or socioeconomic groups, or the impact of combining multiple interventions like better nutritional programs and targeted test preparation. Longitudinal studies could also assess the sustainability of these improvements over time.</p>
+<p>Overall, this dashboard offers actionable insights to guide decision-making and foster a deeper understanding of educational disparities. It highlights key factors contributing to student success, providing educators and policymakers with data-driven strategies to enhance academic outcomes across diverse student populations.</p>
 
 
 </section>
